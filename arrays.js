@@ -24,3 +24,12 @@ function destructivelyAddElementToEndOfArray(array,element){
   return array
 }
 
+var entrepreneurs = ["Elizabeth Holmes","Laurene Powell Jobs", "Arianna Huffington"];
+console.log(entrepreneurs[0]);
+var bio = " is the co-founder and editree-in-chief of The Huffington Post";
+console.log(entrepreneurs[2]+bio);
+entrepreneurs[9]
+
+function acessElementInArray(array, index){
+  return array[index]
+}
