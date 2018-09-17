@@ -30,6 +30,6 @@ var bio = " is the co-founder and editree-in-chief of The Huffington Post";
 console.log(entrepreneurs[2]+bio);
 entrepreneurs[9]
 
-function acessElementInArray(array, index){
+function accessElementInArray(array, index){
   return array[index]
 }
