@@ -4,4 +4,4 @@ var superheroines = ["catwoman", "she-hulk", "mystique"];
 superheroines.push("wonderwoman");
 
 var cities = ["New York", 'San Francisco']
-["Philadelphia",...cities] 
+return ["Philadelphia",...cities] 
