@@ -7,7 +7,8 @@ const cats = ["Milo","Garfield"]
 const moreCats = ["Felix",...cats]
 
 function addElementToBeginningOfArray(array,element){
- return[element,...array]
+ array.unshift(element)
+ return element
 }
   
 function destructivelyAddElementToBeginningOfArray(array, element){
