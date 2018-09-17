@@ -33,3 +33,10 @@ entrepreneurs[9]
 function accessElementInArray(array, index){
   return array[index]
 }
+
+const days = ["Monday", "Tuesday", "Wednesday"]
+days.shift //removes the element from the beginning of an arrray
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  return array.shift 
+}
