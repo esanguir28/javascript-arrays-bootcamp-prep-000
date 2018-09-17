@@ -9,4 +9,6 @@ cities = ["Philadelphia",...cities]
 const cats = ["Milo","Garfield"]
 const moreCats = ["Felix",...cats]
 
-function addElementToBeginningOfArray()
+function addElementToBeginningOfArray(cities,citystring){
+  cities = ["New Jersey",...cities]
+}
