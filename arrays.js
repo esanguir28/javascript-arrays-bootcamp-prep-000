@@ -7,4 +7,4 @@ var cities = ["New York", 'San Francisco']
 cities = ["Philadelphia",...cities] 
 
 const cats = ["Milo","Garfield"]
-const moreCats = ["Felix"]
+const moreCats = ["Felix",...cats]
