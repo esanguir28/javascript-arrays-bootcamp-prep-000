@@ -6,7 +6,7 @@ superheroines.push("wonderwoman");
 const cats = ["Milo","Garfield"]
 const moreCats = ["Felix",...cats]
 
-function addElementToBeginningOfArray(dogs,doggies){
- return[doggies,...dogs]
+function addElementToBeginningOfArray(array,element){
+ return[element,...array]
 }
   
