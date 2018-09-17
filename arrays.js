@@ -7,6 +7,6 @@ const cats = ["Milo","Garfield"]
 const moreCats = ["Felix",...cats]
 
 function addElementToBeginningOfArray(city,citystring){
- return[citystring]
+ return[citystring,...city]
 }
   
