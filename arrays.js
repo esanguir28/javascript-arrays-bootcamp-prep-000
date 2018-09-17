@@ -38,5 +38,6 @@ const days = ["Monday", "Tuesday", "Wednesday"]
 days.shift //removes the element from the beginning of an arrray
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift 
+array.shift
+return array
 }
