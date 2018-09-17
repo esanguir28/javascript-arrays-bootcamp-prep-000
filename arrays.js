@@ -11,5 +11,6 @@ const moreCats = ["Felix",...cats]
 
 function addElementToBeginningOfArray(cities,citystring){
   cities = ["New Jersey",...cities];
+  return cities.unshift(citystring)
 }
   
