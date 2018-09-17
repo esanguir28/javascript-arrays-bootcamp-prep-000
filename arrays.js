@@ -10,5 +10,5 @@ const cats = ["Milo","Garfield"]
 const moreCats = ["Felix",...cats]
 
 function addElementToBeginningOfArray(cities,citystring){
-  cities = ["New Jersey",...cities]
+  
 }
