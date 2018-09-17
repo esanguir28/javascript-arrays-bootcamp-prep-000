@@ -9,5 +9,8 @@ cities = ["Philadelphia",...cities]
 const cats = ["Milo","Garfield"]
 const moreCats = ["Felix",...cats]
 
-
+function addElementToBeginningOfArray(cities,citystring){
+  cities.unshift("New Jersey")
+  
+}
   
